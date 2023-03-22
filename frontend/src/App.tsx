@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./Home/Home";
 import Products from "./Products/Products";
-import './App.css';
+//import './App.css';
 
 function App() {
   const openMenu = () => {
@@ -53,7 +53,7 @@ function App() {
               </Routes>
           </main>
         
-          <footer>
+          <footer className = "footer">
               &copy; 2023 Purple Vipers
           </footer>
 
