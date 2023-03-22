@@ -3,7 +3,8 @@ html {
   box-sizing: border-box;
 }
 body {
-  font: 1.6rem Helevetica;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 1.6rem;
   height: 100vh;
   margin: 0;
 }
