@@ -173,17 +173,19 @@ tbody > tr:nth-child(odd) {
   display: flex;
   justify-content: space-between;
   width: 40rem;
-  margin-bottom: 1rem auto;
+  margin: 1rem auto;
 }
 .checkout-steps > div {
-  border: 0.3rem #c0c0c0 solid;
+  border-top: 0.3rem #c0c0c0 solid;
   color: #c0c0c0;
   flex: 1 1;
   padding-top: 1rem;
 }
 .checkout-steps > div.active {
-  border: 0.3rem #f08000 solid;
+  border-top: 0.3rem #f08000 solid;
   color: #f08000;
+  align-items: center;
+  text-align: center;
 }
 .form {
   display: flex;
@@ -193,6 +195,7 @@ tbody > tr:nth-child(odd) {
 }
 .form-container {
   display: flex;
+  
   flex-direction: column;
   width: 32rem;
   padding: 2rem;
@@ -210,4 +213,7 @@ input {
   padding: 1rem;
   border: 0.1rem #c0c0c0 solid;
   border-radius: 0.5rem;
+}
+table tr.not-shipped td {
+  color: red;
 }
