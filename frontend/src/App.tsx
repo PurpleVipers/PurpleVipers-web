@@ -23,7 +23,7 @@ function App() {
       <div className="grid-container">
         <title>Purple Vipers</title>
 
-        <body>
+       
           <div>
             <header className = "header">
                 <div className="brand">
@@ -69,7 +69,7 @@ function App() {
               &copy; 2023 Purple Vipers
           </footer>
 
-        </body>
+        
       </div>
     </Router>
   );
