@@ -22,8 +22,7 @@ function App() {
     <Router>
       <div className="grid-container">
         <title>Purple Vipers</title>
-
-       
+        
           <div>
             <header className = "header">
                 <div className="brand">
